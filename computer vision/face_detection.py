@@ -43,7 +43,7 @@ with FaceDetector.create_from_options(options) as detector:
                 h=bb.height
                 cv2.rectangle(
                     image,
-                    (x,y),
+                    (x,y),  
                     (x+w,y+h),
                     (0,255,0),
                     1
